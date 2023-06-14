@@ -142,7 +142,7 @@ ul{
         border-color:white;
         color:white;
         margin-top:20px;
-        margin-bottom:20px;
+        margin-bottom:60px;
     }
     
     #console2{
@@ -159,18 +159,17 @@ ul{
     
     #icon-menu{
         width:90%;
-        height:150px;
+        height:300px;
         display:flex;
         justify-content: space-around;
         align-items:center;
         background-color:rgba(0, 0, 0, 0.800);
         border-radius:30px;
-        margin-bottom:20px;
     }
     
     .icon-menu-svg{
-        width:100px;
-        height:100px;
+        width:160px;
+        height:160px;
         color:white;
         fill:currentColor;
     }
@@ -181,8 +180,21 @@ ul{
         text-decoration: none;
     }
 
+    #footer{
+        width: 100%;
+        height:300px;
+        background-color:black;
+        border:solid white 1px;
+        border-left:none;
+        border-right:none;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        color:white;
+    }
+
     .footer-a{
-        font-size:25px;
+        font-size:20px;
     }
 
     #©{
@@ -190,8 +202,8 @@ ul{
     }
 
     .footer-iconLink{
-        width:8px; 
-        height:8px;
+        width:30px; 
+        height:30px;
     }
 
     li{
