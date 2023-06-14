@@ -119,10 +119,10 @@ ul{
 }
 
 
-@media screen and (min-width:300px) and (max-width:1200px){
+@media screen and (min-width:300px) and (max-width:1100px){
     #main{
         width:100%;
-        height:1800px;
+        height:1700px;
         display: flex;
         flex-direction: column;
         align-items:center;
