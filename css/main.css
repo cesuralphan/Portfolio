@@ -136,7 +136,7 @@ ul{
 
     #console1{  
         width:95%;
-        height:850px;
+        height:1200px;
         background-color:rgba(0, 0, 0, 0.800);
         border:solid;
         border-color:white;
@@ -153,7 +153,7 @@ ul{
     }
     
     .text{
-        font-size:30px;
+        font-size:40px;
     }
 
     
