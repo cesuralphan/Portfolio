@@ -136,7 +136,7 @@ ul{
 
     #console1{  
         width:95%;
-        height:450px;
+        height:850px;
         background-color:rgba(0, 0, 0, 0.800);
         border:solid;
         border-color:white;
@@ -151,6 +151,11 @@ ul{
        color:black;
        border-radius: 1px; 
     }
+    
+    .text{
+        font-size:30px;
+    }
+
     
     #icon-menu{
         width:90%;
@@ -176,8 +181,12 @@ ul{
         text-decoration: none;
     }
 
+    .footer-a{
+        font-size:25px;
+    }
+
     #©{
-        font-size:10px;
+        font-size:20px;
     }
 
     .footer-iconLink{
