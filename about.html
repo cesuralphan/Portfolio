@@ -3,7 +3,7 @@
 
 <head>
 
-    <title> Melanocetus Portfolio </title>
+    <title> About Melanocetus </title>
 
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
@@ -22,22 +22,21 @@
 <body>
 
     <div id="container">
-
         <div id="main">
-            
-            <div id="console1">
+            <div id="about-console">
                 <div id="console2">Console</div>   
                 <p class="text"></p>
                 <p class="text-art"></p>
             </div>
-            
-            <div id="icon-menu">
+
+            <div id="icon-menu" style="margin-bottom:80px;">
                 <div class="options">
-                    <a class="icon-menu-link" href="about.html">     
-                        <svg xmlns="http://www.w3.org/2000/svg"  class="bi bi-person-fill icon1 icon-menu-svg" viewBox="0 0 16 16">
-                              <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                        </svg>
-                        <div class="options-link"> About </div>          
+                    <a class="icon-menu-link" href="index.html">     
+                        <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-house-fill icon1 icon-menu-svg" viewBox="0 0 16 16">
+                            <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"/>
+                            <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"/>
+                          </svg>
+                        <div class="options-link"> Home </div>          
                     </a>       
                 </div>
 
@@ -69,9 +68,8 @@
                     </a>
                 </div>
             </div>
-
         </div>
-
+        
         <div id="footer">
             <div id="footer-link">
                  <ul>
@@ -104,20 +102,18 @@
         </div>
     </div>
 
-
-<!--Javascript-->
-<script>
+    <script>
     
-    var typed = new Typed('.text', {
-      strings: [               
-                "...<br>...<br>...<br>...",
-                "//--Melanocetus.exe<br>//---Select one of the options in screen---<br>⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿<br>⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠻⢿⣿⣿<br>⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⠙⣿⣿⣿⣿⣿⣿⣿⠁⣴⣦⠈⣿⣿<br>⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⠙⠿⡿⠀⠀⠸⠿⠿⠿⣿⣿⡇⢠⣿⡏⠀⠙⣿<br>⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠃⢸⣿⣷⣄⣴⣿<br>⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣿⣿⣿⣿<br>⣿⣏⠛⠿⣿⣿⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⣠⡀⠀⠀⣴⣾⠁⠀⠀⠈⢻⣿⣿<br>⣿⣿⣧⠀⠀⠉⠋⠀⠀⠀⠀⠀⠀⠀⢰⡆⢠⣿⠀⠀⠀⠻⣿⣷⠞⠀⣠⡿⠻⣿<br>⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠿⣧⡈⠻⣶⣄⠀⠀⠀⠀⢀⣼⠏⢀⣼⣿<br>⣿⣿⣥⡄⠀⠀⣀⣤⣄⡀⠀⠀⠀⠀⠀⠈⠋⠀⠀⠙⠀⠀⠀⣰⡿⠁⣠⣿⣿⣿<br>⣿⣿⠟⣀⣴⣾⣿⣿⣿⣿⣷⣦⠄⠀⠀⠀⠀⠀⢀⠀⠀⢠⣾⠋⢀⣼⣿⣿⣿⣿<br>⣿⣿⣾⣿⣿⣿⣿⣿⣿⣿⣧⠄⠀⠀⠀⠀⣀⡀⠈⠻⢶⠟⠁⣰⣿⣿⣿⣿⣿⣿<br>⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣤⠀⢠⣾⣿⣿⣷⣦⣄⣀⣾⣿⣿⣿⣿⣿⣿⣿<br>⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿"
-               ],
-      typeSpeed: 5,
-      loop:true
-    });
-</script>
-
+        var typed = new Typed('.text', {
+          strings: [               
+                    "...<br>...<br>...<br>...",
+                    "//--MelanocetusAbout.exe<br>/*--Merhaba, ben Cesur Alphan Ellik. İzmir Ekonomi Üniversitesi Bilgisayar Programcılığı bölümünden mezunum. Teknolojideki son gelişmeleri yakından takip ediyor, her zaman en güncel yazılımları kullanmaya özen gösteriyorum. Ekip çalışmasına olan yatkınlığım ve azmim sayesinde her projeye en iyi şekilde katkı sağlıyorum. Yeni teknolojilere öğrenmeye her zaman açığım ve çalışkanlığımı her işe yansıtarak başarı grafiğimi yükseltiyorum. Birlikte çalıştığım takıma değer katmak ve hedeflere ulaşmak için sabırsızlanıyorum.*/<br>⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿<br>⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠻⢿⣿⣿<br>⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⠙⣿⣿⣿⣿⣿⣿⣿⠁⣴⣦⠈⣿⣿<br>⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⠙⠿⡿⠀⠀⠸⠿⠿⠿⣿⣿⡇⢠⣿⡏⠀⠙⣿<br>⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠃⢸⣿⣷⣄⣴⣿<br>⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣿⣿⣿⣿<br>⣿⣏⠛⠿⣿⣿⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⣠⡀⠀⠀⣴⣾⠁⠀⠀⠈⢻⣿⣿<br>⣿⣿⣧⠀⠀⠉⠋⠀⠀⠀⠀⠀⠀⠀⢰⡆⢠⣿⠀⠀⠀⠻⣿⣷⠞⠀⣠⡿⠻⣿<br>⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠿⣧⡈⠻⣶⣄⠀⠀⠀⠀⢀⣼⠏⢀⣼⣿<br>⣿⣿⣥⡄⠀⠀⣀⣤⣄⡀⠀⠀⠀⠀⠀⠈⠋⠀⠀⠙⠀⠀⠀⣰⡿⠁⣠⣿⣿⣿<br>⣿⣿⠟⣀⣴⣾⣿⣿⣿⣿⣷⣦⠄⠀⠀⠀⠀⠀⢀⠀⠀⢠⣾⠋⢀⣼⣿⣿⣿⣿<br>⣿⣿⣾⣿⣿⣿⣿⣿⣿⣿⣧⠄⠀⠀⠀⠀⣀⡀⠈⠻⢶⠟⠁⣰⣿⣿⣿⣿⣿⣿<br>⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣤⠀⢠⣾⣿⣿⣷⣦⣄⣀⣾⣿⣿⣿⣿⣿⣿⣿<br>⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿"
+                   ],
+          typeSpeed: 5,
+          loop:true
+        });
+    </script>
+    
 </body>
 
 </html>

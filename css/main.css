@@ -13,7 +13,6 @@ body{
     height:auto;
     display:flex;
     flex-direction:column;
-    align-items: center;
 }
 
 #main{
@@ -28,13 +27,13 @@ body{
 }
 
 #console1{  
-    width:60%;
-    height:650px;
+    width:70%;
+    height:700px;
     background-color:rgba(0, 0, 0, 0.800);
     border:solid;
     border-color:white ;
     margin-top:20px;
-    margin-bottom:50px;
+    margin-bottom:20px;
     color:white;
 }
 
@@ -93,6 +92,87 @@ svg:hover{
     text-align:center;
 }
 
+#home{
+    width:80px;
+    height:80px;
+    background-color: black;
+    border-radius:10px;
+}
+.home-svg{
+    width: 80px;
+    height: 80px;
+    color: white;
+    fill:currentColor;
+    
+}
+.home-svg:hover{
+    color:#0351dd;
+}
+
+#about-console{
+    width:70%;
+    height:700px;
+    background-color:rgba(0, 0, 0, 0.800);
+    border:solid;
+    border-color:white ;
+    margin-top:20px;
+    margin-bottom:20px;
+    color:white;
+}
+
+form{
+    text-align: center;
+}
+
+.input-container {
+    height: 50px;
+    width: 100%;
+}
+  
+#message {
+    height:200px;
+}
+
+.ic1 {
+    margin-top: 95px;
+}
+  
+.ic2 {
+    margin-top: 30px;
+}
+  
+.input {
+    background-color: #303245;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 40%;
+}
+ 
+.submit {
+    background-color: #08d;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 38px;
+    outline: 0;
+    text-align: center;
+    width: 20%;
+}
+  
+.submit:active {
+    background-color: #06b;
+}
+
 #footer{
     width: 100%;
     height:150px;
@@ -149,12 +229,48 @@ ul{
         margin-top:20px;
         margin-bottom:60px;
     }
-    
-    #console2{
-       width:100%;
-       background-color: white;
-       color:black;
-       border-radius: 1px; 
+
+    #about-console{
+        width:95%;
+        height:1900px;
+        background-color:rgba(0, 0, 0, 0.800);
+        border:solid;
+        border-color:white ;
+        margin-top:5px;
+        margin-bottom:50px;
+        color:white;
+    }
+
+    .ic1 {
+        margin-top:300px;
+    }
+
+    .input {
+        background-color: #303245;
+        border-radius: 12px;
+        border: 0;
+        box-sizing: border-box;
+        color: #eee;
+        font-size: 18px;
+        height: 100%;
+        outline: 0;
+        padding: 4px 20px 0;
+        width: 80%;
+    }
+
+    .submit {
+        background-color: #08d;
+        border-radius: 12px;
+        border: 0;
+        box-sizing: border-box;
+        color: #eee;
+        cursor: pointer;
+        font-size: 18px;
+        height: 50px;
+        margin-top: 38px;
+        outline: 0;
+        text-align: center;
+        width: 60%;
     }
     
     .text{
